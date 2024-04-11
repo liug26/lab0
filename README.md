@@ -1,9 +1,9 @@
 # A Kernel Seedling
-TODO: intro
+For this lab, I made a kernel module which counts the number of currently running processes.
 
 ## Building
 ```shell
-TODO: cmd for build
+To compile and build the kernel module, run `make`. 
 ```
 
 ## Running
