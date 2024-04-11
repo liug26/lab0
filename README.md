@@ -1,5 +1,5 @@
 # A Kernel Seedling
-For this lab, I made a kernel module which counts the number of currently running processes.
+For this lab, I made a kernel module, which counts the number of currently running processes.
 
 ## Building
 ```shell
@@ -8,20 +8,24 @@ To compile and build the kernel module, run `make`.
 
 ## Running
 ```shell
-TODO: cmd for running binary
+Run the following commands after make:
+sudo insmod proc_count.ko
+cat /proc/count
+this should output the number of currently running processes.
 ```
 TODO: results?
 
 ## Cleaning Up
 ```shell
-TODO: cmd for cleaning the built binary
+Run the following command to remove the kernel module:
+sudo rmmod proc_count
 ```
 
 ## Testing
 ```python
 python -m unittest
 ```
-TODO: results?
+Results: Passed all 3 tests.
 
 Report which kernel release version you tested your module on
 (hint: use `uname`, check for options with `man uname`).
