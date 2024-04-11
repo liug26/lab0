@@ -34,4 +34,5 @@ It should match release numbers as seen on https://www.kernel.org/.
 ```shell
 uname -r -s -v
 ```
-TODO: kernel ver?
+
+My kernel version is: Linux 5.14.8-arch1-1
