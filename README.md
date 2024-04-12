@@ -12,8 +12,8 @@ Run the following commands after make:
 sudo insmod proc_count.ko
 cat /proc/count
 this should output the number of currently running processes.
+For me, it outputs 88
 ```
-TODO: results?
 
 ## Cleaning Up
 ```shell
